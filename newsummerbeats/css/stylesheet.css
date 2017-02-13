@@ -1,0 +1,196 @@
+
+h1, h2, h3, h4 {
+font-family: 'Fjalla One', sans-serif;
+}
+
+p, a {
+  font-family: 'Lato', sans-serif;
+}
+
+.shadow {
+	text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-brand {
+  padding: 3px;
+}
+
+.cover-heading {
+  font-size: 50px;
+}
+
+/*------- SPONCERS PAGE -------*/
+
+.title {
+	margin: auto;
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+
+.title h1 {
+	font-size: 40px;
+}
+
+.section {
+	margin-top: 35px;
+}
+
+
+.sp_img {
+	margin: auto;
+}
+
+.pulse2 {
+	animation-delay: .5s;
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+  -ms-animation-delay: .5s;
+  -o-animation-delay: .5s;
+}
+
+.sp_para {
+	height: 340px;
+}
+
+.sp_btn {
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.btn {
+  background: #ccc;
+  background-image: -webkit-linear-gradient(top, #9999ff, #ccc);
+  background-image: -moz-linear-gradient(top, #9999ff, #ccc);
+  background-image: -ms-linear-gradient(top, #9999ff, #ccc);
+  background-image: -o-linear-gradient(top, #9999ff, #ccc);
+  background-image: linear-gradient(to bottom, #9999ff, #ccc);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  margin: auto;
+  display: block;
+}
+
+.btn:hover {
+  background: #6666ff;
+  background-image: -webkit-linear-gradient(top, #6666ff, #ccc);
+  background-image: -moz-linear-gradient(top, #6666ff, #ccc);
+  background-image: -ms-linear-gradient(top, #6666ff, #ccc);
+  background-image: -o-linear-gradient(top, #6666ff, #ccc);
+  background-image: linear-gradient(to bottom, #6666ff, #ccc);
+  text-decoration: none;
+  color: #333;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*------STAGES PAGE-------*/
+
+.blurb {
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.stage_table {
+  padding: 20px;
+}
+
+.stage_table h2 {
+  font-size: 20px;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #9999ff
+}
+
+.table a {
+  color: #6666ff
+}
+
+/*-------TICKETS-------*/
+
+.ticket-btn {
+  margin: 20px;
+}
+
+.ticket-btn .btn {
+   width: 30%;
+  height: auto;
+}
+
+/*------Footer-------*/
+
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #333;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.footinfo {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+#copyright {
+  font-size: 11px;
+}
+
+a {
+  color: #9999ff;
+  text-decoration: none;
+}
+
+/*------CUSTOMIZED MEDIA QUERIES--------*/
+
+@media (min-width: 940px) {
+	.sp_para {
+		height: 285px;
+	}
+  .featurette {
+  margin: 20px;
+}
+
+}
+
+@media (max-width: 768px) {
+	.sp_para {
+		height: auto;
+	}
+  .bignav {
+    display: none;
+  }
+  .smallnav {
+    margin-bottom: 80px;
+  }
+  h3 {
+  text-align: center;
+}
+
+}
+
+@media (min-width: 768px) {
+  .smallnav {
+    display: none;
+  }
+}
+
+
+
+
